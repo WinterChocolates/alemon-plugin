@@ -58,8 +58,8 @@ export async function minecraftlist(e: Messgetype) {
 export async function minecraft(e: Messgetype) {
     let res = ''
     if(e.identity.master||e.identity.admins){
-        let msg:string = e.cmd_msg;
-        let message = msg.toString().replace(/#/g,"").trim()
+        let msg = e.cmd_msg;
+        let message = msg.replace(/#/g,"").trim()
         res = await Sendmessage(message)
     }else {
         res = '你没权限ok?'
