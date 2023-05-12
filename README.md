@@ -7,7 +7,7 @@ alemon-bot的插件存放仓库
 
 ### minecraft-server.ts使用教程
 
-将minecraft.ts放置alemon-bot根目录的program文件夹内
+将minecraft.ts放置alemon-bot根目录的example文件夹内
 在alemon-bot根目录下安装minecraft-server-util
 
 ```typescript
